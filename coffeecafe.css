@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+#h4{
+    /* align-items: center; */
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    padding: 20px;
+    background-color: burlywood;
+}
+#h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 45px;
+    background-color: rgb(165, 106, 42);
+}
+#h42{
+    font-size: 25px;
+    padding: 5px;
+    word-spacing: 10px;
+    color: white;
+}
+#anchor{
+    text-align: center;
+    word-spacing: 200px;
+    font-size: 40px;
+    background-color: rgb(189, 124, 38);
+    padding: 20px;
+    text-decoration: none;
+}
+video{
+    margin: 0;
+    display: block;
+     object-fit: cover;
+  pointer-events: none;
+}
+#h3{
+    text-align: center;
+    word-spacing: 5px;
+    padding: 30px;
+    background-color:rgb(188, 141, 78);
+    font-size: 50px;
+    padding-top: 20px;
+    margin: 0;
+}
+#menu{
+    width: 100%;
+    height:auto;
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgb(210, 145, 61);
+
+}
+#menuimage{
+    height: auto;
+    width: 250px;
+    object-fit: cover;
+    display: block;
+    background-color: burlywood;
+}
+#image1,#image2,#image3,#image4{
+    background-color: burlywood;
+    margin: 10px;
+    width: 18%;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+}
+#h32{
+     width: 100%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background:rgb(169, 108, 29);
+    font-size: 30px;
+    padding: 30px;
+    margin-bottom: 0;
+}
+#special{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(184, 136, 73);
+    margin-top: 0;
+    padding-top: 0;
+}
+#special img{
+    height: auto;
+    width: 250px;
+    object-fit: cover;
+    display: block;
+    background-color: burlywood;
+}
+#special1,#special2,#special3,#special4{
+    background-color: burlywood;
+    margin: 10px;
+    width: 18%;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+}
+#gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 40px;
+  background-color: rgb(168, 106, 24);
+}
+#menu-img{
+    height: auto;
+    width: 250px;
+    object-fit: cover;
+    display: block;
+    background-color: burlywood;
+    
+}
+#cafeimage1,#cafeimage2,#cafeimage3,#cafeimage4,#cafeimage5,#cafeimage6,#cafeimage7{
+    background-color: burlywood;
+    margin: 10px;
+    width: 18%;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-around;
+}
+#gallery + section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  background-color: rgb(212, 155, 79);
+}
+#contact{
+    text-align: center;
+    font-size: 30px;
+     background-color: rgb(168, 106, 24);
+    padding: 20px;
+}
+#mail{
+    background-color: rgb(206, 157, 93);
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+
